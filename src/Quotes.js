@@ -2,7 +2,7 @@ import React from "react";
 import authors from "./data";
 
 const Quotes = () => {
-  return <div></div>;
+  return <h2>Quotes component</h2>;
 };
 
 export default Quotes;

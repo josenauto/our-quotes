@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Quotes from "./Quotes";
 
 function App() {
   return (
     <div>
-      <h2>Rewies project setup</h2>
+      <section>
+        <div>
+          <h2>Our quotes</h2>
+        </div>
+        <Quotes />
+      </section>
     </div>
   );
 }
