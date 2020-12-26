@@ -37,14 +37,20 @@ const Quotes = () => {
     setIndex(checkNumber(randomNumber));
   };
   return (
-    <section>
-      <div>
-        <img src={image} alt={name} />
+    <section className="container-quote">
+      <div className="container-img">
+        <img
+          className="img-author"
+          src={image}
+          alt={name}
+          width="150"
+          height="200"
+        />
       </div>
-      <h4>{name}</h4>
-      <p>{country}</p>
-      <p>{text}</p>
-      <div className="button-container">
+      <h3 className="name-author">{name}</h3>
+      <p className="country-author">{country}</p>
+      <p className="text-author">{text}</p>
+      <div className="container-buttons">
         <button className="prev-btn" onClick={prevAuthor}>
           &#x2b9c;
         </button>
