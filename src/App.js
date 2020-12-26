@@ -3,14 +3,11 @@ import Quotes from "./Quotes";
 
 function App() {
   return (
-    <div>
-      <section>
-        <div>
-          <h2>Our quotes</h2>
-        </div>
-        <Quotes />
-      </section>
-    </div>
+    <section className="container">
+      <h1>Our quotes</h1>
+
+      <Quotes />
+    </section>
   );
 }
 
