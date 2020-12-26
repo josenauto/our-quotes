@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import authors from "./data";
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 
 const Quotes = () => {
   const [index, setIndex] = useState(0);
